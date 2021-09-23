@@ -313,6 +313,27 @@
 
 ### Sub-Part 5: Steps to characterize synthesis results
 
+- The synthesis run has been completed in the sub-part 3.
+- Flop ratio is the ratio of total number of D flip-flops to the total number of cells.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134509767-f9241138-cbc5-48d9-84e7-48a1bdca3b07.JPG" />
+</p>
+
+- So in this case the number of D flip-flops that we have are:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134509872-83ffbf3f-35b6-4fed-8766-9a06da4b257b.JPG" />
+</p>
+
+- Total number of cells that we have are:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134509953-52e79bb9-60cd-46eb-a1a6-3e4a364aa0bc.JPG" />
+</p>
+
+- Hence, the flop ratio comes out to be: 
+
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 - [https://www.youtube.com/watch?v=EczW2IWdnOM](https://www.youtube.com/watch?v=EczW2IWdnOM)
