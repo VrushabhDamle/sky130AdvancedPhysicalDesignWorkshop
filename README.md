@@ -18,6 +18,7 @@
         - [Sub-Part 4: Introduction to OpenLANE detailed ASIC design flow](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-introduction-to-openlane-detailed-asic-design-flow)
     - [Part 3: Get familiar to open-source EDA tools](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-3-get-familiar-to-open-source-eda-tools)
         - [Sub-Part 1: OpenLANE Directory structure in detail](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-openlane-directory-structure-in-detail)
+        - [Sub-Part 2: Design Preparation Step]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -230,6 +231,21 @@
 
 ### Sub-Part 1: OpenLANE Directory structure in detail
 
+- Go to the directory having the openLANE files from the terminal using the "cd" command.
+- Use the command `ls -ltr` to list everything in a chronological order.
+- Open_pdk is a set of scripts and files that convert the foundry level PDKs to be compatible with the open source EDA tools.
+- Enter the reference libraries folder using the "cd" command and observe "sky130_fd_sc_hd"
+    - "fd" is the abbreviated foundry name.
+    - "sc" is standard cell
+    - "hd" is the variant of the PDK (here high density).
 
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134495519-9405137b-fe55-484d-a329-5fee1a1453df.JPG" />
+</p>
+
+- "techlef file contains the layer information.
+- All the timing files for the process corners are in the lib directory.
+
+### Sub-Part 2: Design Preparation Step
 
 # References
