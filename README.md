@@ -16,7 +16,7 @@
 
 ### Sub-Part 1: Introduction to QFN-48 Package, chip, pads, core, die and IPs
 
-- The block diagram for the block diagram of the board of Arduino Leonardo should look as follows:
+- The block diagram for the port diagram of the board of Arduino Leonardo should look as follows:
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/89193562/134467899-dd1fdfe0-65c1-45ee-8067-56008061d9f6.JPG" />
@@ -38,4 +38,9 @@
     <img src="https://user-images.githubusercontent.com/89193562/134478921-05ffc729-d7fe-453f-817f-954137875a83.png" />
 </p>
 
+- **Die** is basically the size of the entire chip.
+- **Pads** are something through which you can send the signal inside or outside the chip.
+- **Core** is a place where all of the digital logic is placed.
 
+- An IP stands for Intellectual Property.
+- Macros are something that require pure digital logic and Foundry IPs require some amount of intelligence.
