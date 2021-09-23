@@ -282,7 +282,7 @@ On the first day of the workshop, we learnt about the method in which an integra
 </p>
 
 - Return to the terminal that is having the openLANE open in it.
-- Type the command `prep -designs picorv32a`.
+- Type the command `prep -design picorv32a`.
 - In the terminal it should look like:
 
 <p align="center">
