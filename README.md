@@ -30,6 +30,8 @@
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
 
+On the first day of the workshop, we learnt about the method in which an integrated circuit talks to a computer. We also looked into the steps that are required for a computer to talk to an IC. We also saw the RISC-V architecture and the flow from a high-level language program to a binary level program. Later on, we also saw the RTL2GDS flow. Finally, the day ended with us performing a synthesis run on an example design of "picorv32a".
+
 ## Part 1: How to talk to computers
 
 ### Sub-Part 1: Introduction to QFN-48 Package, chip, pads, core, die and IPs
