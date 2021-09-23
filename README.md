@@ -32,4 +32,10 @@
 - The package of this chip is **QFN-48**.
 - QFN stands for "Quad Flat No-leads".
 - "48" means that the IC has 48 pins. 
-- 
+- The chip is somewhere at the centre of the package and we will be able to transfer all the signals that are coming from the outside world to the chip.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134478921-05ffc729-d7fe-453f-817f-954137875a83.png" />
+</p>
+
+
