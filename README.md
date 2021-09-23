@@ -18,11 +18,15 @@
 
 - The block diagram for the block diagram of the board of Arduino Leonardo should look as follows:
 
-![processor_soc_block](https://user-images.githubusercontent.com/89193562/134467899-dd1fdfe0-65c1-45ee-8067-56008061d9f6.JPG)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134467899-dd1fdfe0-65c1-45ee-8067-56008061d9f6.JPG" />
+</p>
 
 - If we open the chip, it should look something as given below:
 
-![2021-09-22 (4)](https://user-images.githubusercontent.com/89193562/134468286-1fefb66d-1acf-460d-867e-faacf61f273e.png)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134468286-1fefb66d-1acf-460d-867e-faacf61f273e.png" />
+</p>
 
 - The dimensions of this chip are 7mm x 7mm.
 - The package of this chip is **QFN-48**.
