@@ -176,8 +176,6 @@
 
 ### Sub-Part 4: Introduction to OpenLANE detailed ASIC design flow
 
-[<p align="center">
-    <img src="https://user-images.githubusercontent.com/89193562/134491664-63b9c73d-48a2-49e5-b5ee-3b544d76f93f.png" />
-</p>](https://github.com/efabless/OpenLane)
+[![openlane flow 1](https://user-images.githubusercontent.com/89193562/134491745-59fc8e15-77c5-4e9a-8065-4bea5f723b2b.png)](https://github.com/efabless/OpenLane)
 
 # References
