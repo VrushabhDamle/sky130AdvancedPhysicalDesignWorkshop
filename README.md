@@ -11,6 +11,8 @@
         - [Sub-Part 1: Introduction to QFN-48 Package, chip, pads, core, die and IPs](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-introduction-to-qfn-48-package-chip-pads-core-die-and-ips)
         - [Sub-Part 2: Introduction to RISC-V](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-introduction-to-risc-v)
         - [Sub-Part 3: From Software Applications to Hardware](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-from-software-applications-to-hardware)
+    - [Part 2: SoC design and OpenLANE]()
+        - [Sub-Part1: Introduction to all components of open-source digital asic design]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -74,5 +76,19 @@
 <p align="center">
     <img src="https://user-images.githubusercontent.com/89193562/134483547-bee84ad2-2b26-4624-8c9b-8811baba5724.JPG" />
 </p>
+
+- Job of the OS is to:
+    - Handle Input-Output operations
+    - Allocate memory
+    - Low-level circuit functions
+- The job of the compiler is to convert high level language programs to the hardware's understandable language/instructions.
+- The job of the assembler is to take the instructions and convert it into binary language (0s and 1s).
+- The instructions act as an abstract interface between software and hardware. This is known as instruction set architecture or architecture of computer.
+- We need an RTL which implements the instruction set and synthesizes it to the gate level.
+- Gate level is converted into respective layout based on the RTL.
+
+## Part 2: SoC design and OpenLANE
+
+### Sub-Part1: Introduction to all components of open-source digital asic design
 
 # References
