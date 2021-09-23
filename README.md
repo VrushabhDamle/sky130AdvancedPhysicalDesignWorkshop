@@ -16,6 +16,16 @@
 
 ### Sub-Part 1: Introduction to QFN-48 Package, chip, pads, core, die and IPs
 
-The block diagram for the block diagram of the board of Arduino Leonardo should look as follows:
+- The block diagram for the block diagram of the board of Arduino Leonardo should look as follows:
 
 ![processor_soc_block](https://user-images.githubusercontent.com/89193562/134467899-dd1fdfe0-65c1-45ee-8067-56008061d9f6.JPG)
+
+- If we open the chip, it should look something as given below:
+
+![2021-09-22 (4)](https://user-images.githubusercontent.com/89193562/134468286-1fefb66d-1acf-460d-867e-faacf61f273e.png)
+
+- The dimensions of this chip are 7mm x 7mm.
+- The package of this chip is **QFN-48**.
+- QFN stands for "Quad Flat No-leads".
+- "48" means that the IC has 48 pins. 
+- 
