@@ -21,6 +21,7 @@
         - [Sub-Part 2: Design Preparation Step](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-design-preparation-step)
         - [Sub-Part 3: Review files after design prep and run synthesis](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-review-files-after-design-prep-and-run-synthesis)
         - [Sub-Part 4: OpenLANE Project Git Link Description](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-openlane-project-git-link-description)
+        - [Sub-Part 5: Steps to characterize synthesis results]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -301,5 +302,18 @@
 
 ### Sub-Part 4: OpenLANE Project Git Link Description
 
+- GitHub is a remote repository collection.
+- To get the files from the [openLANE directory](https://github.com/The-OpenROAD-Project/OpenLane) into your computer, perform the following steps:
+    - Install git commands in the terminal using the command `sudo apt-get install git`.
+    - Now copy the address of the git file and use the command `git clone https://github.com/The-OpenROAD-Project/OpenLane.git`
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134508798-fa5f751d-a4cb-4c54-b419-fce1c169ff84.JPG" />
+</p>
+
+### Sub-Part 5: Steps to characterize synthesis results
+
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
+- [https://www.youtube.com/watch?v=EczW2IWdnOM](https://www.youtube.com/watch?v=EczW2IWdnOM)
+- [https://www.youtube.com/watch?v=Vhyv0eq_mLU](https://www.youtube.com/watch?v=Vhyv0eq_mLU)
