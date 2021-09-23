@@ -17,7 +17,7 @@
         - [Sub-Part 3: Introduction to OpenLANE and Strive chipsets](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-introduction-to-openlane-and-strive-chipsets)
         - [Sub-Part 4: Introduction to OpenLANE detailed ASIC design flow](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-introduction-to-openlane-detailed-asic-design-flow)
     - [Part 3: Get familiar to open-source EDA tools](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-3-get-familiar-to-open-source-eda-tools)
-        - [Sub-Part 1: OpenLANE Directory structure in detail]()
+        - [Sub-Part 1: OpenLANE Directory structure in detail](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-openlane-directory-structure-in-detail)
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
