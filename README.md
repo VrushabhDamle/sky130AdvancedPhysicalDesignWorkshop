@@ -19,7 +19,7 @@
     - [Part 3: Get familiar to open-source EDA tools](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-3-get-familiar-to-open-source-eda-tools)
         - [Sub-Part 1: OpenLANE Directory structure in detail](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-openlane-directory-structure-in-detail)
         - [Sub-Part 2: Design Preparation Step](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-design-preparation-step)
-        - [Sub-Part 3: Review files after design prep and run synthesis]()
+        - [Sub-Part 3: Review files after design prep and run synthesis](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-review-files-after-design-prep-and-run-synthesis)
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
