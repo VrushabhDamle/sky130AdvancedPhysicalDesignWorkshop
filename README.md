@@ -13,6 +13,7 @@
         - [Sub-Part 3: From Software Applications to Hardware](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-from-software-applications-to-hardware)
     - [Part 2: SoC design and OpenLANE](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-2-soc-design-and-openlane)
         - [Sub-Part1: Introduction to all components of open-source digital asic design](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part1-introduction-to-all-components-of-open-source-digital-asic-design)
+        - [Sub-Part 2: Simplified RTL2GDS flow]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -90,5 +91,21 @@
 ## Part 2: SoC design and OpenLANE
 
 ### Sub-Part1: Introduction to all components of open-source digital asic design
+
+- "ASIC" stands for Application specific integrated circuits.
+- The digital ASIC design elements are:
+    - RTL IPs (Hardware Description Language and Register Transfer Level models)
+    - EDA Tools
+    - PDK Data
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134486394-8526e296-7605-4491-b996-037853ce93fd.JPG" />
+</p>
+
+- PDK is the interface between the FAB and the designers.
+- PDK stands for "Process Design Kit".
+- PDK is a collection of files used to model a fabrication process for the EDA tools used to design an IC.
+
+## Sub-Part 2: Simplified RTL2GDS flow
 
 # References
