@@ -15,6 +15,7 @@
         - [Sub-Part1: Introduction to all components of open-source digital asic design](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part1-introduction-to-all-components-of-open-source-digital-asic-design)
         - [Sub-Part 2: Simplified RTL2GDS flow](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-simplified-rtl2gds-flow)
         - [Sub-Part 3: Introduction to OpenLANE and Strive chipsets](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-introduction-to-openlane-and-strive-chipsets)
+        - [Sub-Part 4: Introduction to OpenLANE detailed ASIC design flow]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -149,6 +150,30 @@
 
 ### Sub-Part 3: Introduction to OpenLANE and Strive chipsets
 
+- To develop and open-source ASIC flow we need to know about \-
+    - Tools qualification
+    - Tools calibration
+    - Missing Tools
+- **OpenLANE** started as an open-source flow for a true open-source tape-out experiment.
+- "striVe" is a family of open everything SoCs.
+- Open everything means open PDK, open EDA and open RTL.
 
+- **OpenLANE's Main Goal**: Produce a clean GDSII with no human intervention (no-human-in-the-loop).
+- Clean means:
+    - No LVS violations
+    - No DRC violations
+    - No Timing Violations
+- OpenLANE is used for Sky130nm open PDK but it also supports XFAB150 and GF130G.
+- It is containerized:
+    - Functionally out of the box.
+    - Instructions to build and run natively will follow.
+- It can be used to harden Macros and Chips.
+- It has two modes of operation:
+    - Autonomous mode
+    - Interactive mode
+- It supports Design Space Exploration (find the best set of flow configurations).
+- It has a large number of design examples.
+
+### Sub-Part 4: Introduction to OpenLANE detailed ASIC design flow
 
 # References
