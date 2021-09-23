@@ -14,6 +14,7 @@
     - [Part 2: SoC design and OpenLANE](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-2-soc-design-and-openlane)
         - [Sub-Part1: Introduction to all components of open-source digital asic design](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part1-introduction-to-all-components-of-open-source-digital-asic-design)
         - [Sub-Part 2: Simplified RTL2GDS flow](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-simplified-rtl2gds-flow)
+        - [Sub-Part 3: Introduction to OpenLANE and Strive chipsets]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -107,5 +108,47 @@
 - PDK is a collection of files used to model a fabrication process for the EDA tools used to design an IC.
 
 ## Sub-Part 2: Simplified RTL2GDS flow
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134488123-eb564ad3-c0db-48d5-916b-a59439c10727.JPG" />
+</p>
+
+- **Synthesis**:
+    - Converts RTL to a circuit out of components from the standard cell library (SCL).
+    - Standard cells have regular layout.
+    - Each has different views/models.
+- **Floor planning and Power planning**:
+    - Partition the chip die between different system building blocks and place the Input-Output pads.
+    - **Macro Floor planning**: Dimensions, pin locations, row definitions.
+    - Power network is constructed.
+    - Typically chip is powered by multiple Vdd and Gnd fence.
+    - The power fence are connected to all components through vertical and horizontal metal straps.
+    - Parallel structures are meant to reduce resistance.
+    - Typically the power distribution network uses upper metal layers as they are thicker than lower metal layers hence have less resistance.
+- **Placement**:
+    - Place the cells on the floor plan rows, aligned with the sites.
+    - Placement is usually done in two steps: Global and Detailed.
+    - Global placement tries to find optimal placement for all cells. Such positions are not necessarily legal so cells may overlap.
+    - In Detailed placement, the positions obtained from global placement are minimally altered to be legal.
+- **Clock Tree Synthesis**:
+    - Create a clock distribution network.
+    - Clock skew means arrival of the clock to different components at different times.
+- **Routing**:
+    - Implement the interconnect using available metal layers.
+    - Metal tracks form a routing grid.
+    - Routing grid is huge.
+    - Divide and Conquer technique is used:
+        - Global Routing: Generates routing guides.
+        - Detailed Routing: Uses the routing guides to implement the actual wiring.
+- **Sign Off**:
+    - Physical Verification which has two steps:
+        - Design Rules Checking (DRC)
+        - Layout Versus Schematic (LVS)
+    - Timing Verification which includes:
+        - Static Timing Analysis (STA)
+
+### Sub-Part 3: Introduction to OpenLANE and Strive chipsets
+
+
 
 # References
