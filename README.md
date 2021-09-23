@@ -22,6 +22,7 @@
         - [Sub-Part 3: Review files after design prep and run synthesis](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-review-files-after-design-prep-and-run-synthesis)
         - [Sub-Part 4: OpenLANE Project Git Link Description](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-openlane-project-git-link-description)
         - [Sub-Part 5: Steps to characterize synthesis results](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-5-steps-to-characterize-synthesis-results)
+            - [MCQ questions solutions]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -314,6 +315,12 @@
 ### Sub-Part 5: Steps to characterize synthesis results
 
 - The synthesis run has been completed in the sub-part 3.
+- The chip area that we receive is:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134510414-5d382ceb-fbcf-42cd-a03e-d8ed650c5165.JPG" />
+</p>
+
 - Flop ratio is the ratio of total number of D flip-flops to the total number of cells.
 
 <p align="center">
@@ -332,7 +339,9 @@
     <img src="https://user-images.githubusercontent.com/89193562/134509953-52e79bb9-60cd-46eb-a1a6-3e4a364aa0bc.JPG" />
 </p>
 
-- Hence, the flop ratio comes out to be: 
+- Hence, the flop ratio comes out to be: ~0.1084
+
+#### MCQ questions solutions
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
