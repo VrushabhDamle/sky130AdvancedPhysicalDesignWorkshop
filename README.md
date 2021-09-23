@@ -343,6 +343,23 @@
 
 #### MCQ questions solutions
 
+- For the question regarding flop ratio of picorv32a, we have already calculated it to be ~0.1084
+- For the question regarding buffer ratio, from the flop ratio formula, we can say that:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134510876-4871d5f3-e2e0-43a3-8ecd-0973f542c7ca.JPG" />
+</p>
+
+- Total number of buffers in the circuit are:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134511007-a8b1f7b6-83e6-4c97-8f1b-e5df6a28b637.JPG" />
+</p>
+
+- Hence total number of buffers are: 1664
+- We have the total number of cells to be 14876
+- Therefore, the buffer ratio comes out to be ~0.1118
+
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 - [https://www.youtube.com/watch?v=EczW2IWdnOM](https://www.youtube.com/watch?v=EczW2IWdnOM)
