@@ -26,6 +26,7 @@
         - [Sub-Part 5: Steps to characterize synthesis results](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-5-steps-to-characterize-synthesis-results)
             - [MCQ questions solutions](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#mcq-questions-solutions)
 - [Day 2: Good floorplan vs bad floorplan and introduction to library cells](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#day-2-good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
+    - [Part 1: Chip Floor planning considerations]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -366,6 +367,8 @@ On the first day of the workshop, we learnt about the method in which an integra
 - Therefore, the buffer ratio comes out to be ~0.1118
 
 # Day 2: Good floorplan vs bad floorplan and introduction to library cells
+
+## Part 1: Chip Floor planning considerations
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
