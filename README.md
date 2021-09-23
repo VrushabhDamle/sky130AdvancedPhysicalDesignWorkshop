@@ -9,6 +9,7 @@
 - [Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#day-1-inception-of-open-source-eda-openlane-and-sky130-pdk)
     - [How to talk to computers](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-1-how-to-talk-to-computers)
         - [Sub-Part 1: Introduction to QFN-48 Package, chip, pads, core, die and IPs](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-introduction-to-qfn-48-package-chip-pads-core-die-and-ips)
+        - [Sub-Part 2: Introduction to RISC-V]()
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
 
@@ -44,3 +45,5 @@
 
 - An IP stands for Intellectual Property.
 - Macros are something that require pure digital logic and Foundry IPs require some amount of intelligence.
+
+### Sub-Part 2: Introduction to RISC-V
