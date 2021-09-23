@@ -23,6 +23,7 @@
         - [Sub-Part 4: OpenLANE Project Git Link Description](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-openlane-project-git-link-description)
         - [Sub-Part 5: Steps to characterize synthesis results](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-5-steps-to-characterize-synthesis-results)
             - [MCQ questions solutions](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#mcq-questions-solutions)
+- [Day 2: Good floorplan vs bad floorplan and introduction to library cells]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -359,6 +360,8 @@
 - Hence total number of buffers are: 1664
 - We have the total number of cells to be 14876
 - Therefore, the buffer ratio comes out to be ~0.1118
+
+# Day 2: Good floorplan vs bad floorplan and introduction to library cells
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
