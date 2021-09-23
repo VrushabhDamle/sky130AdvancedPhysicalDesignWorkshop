@@ -63,7 +63,16 @@
 
 ### Sub-Part 3: From Software Applications to Hardware
 
+- To run a software on the given hardware:
+    - Application software enters into the system software.
+    - System software converts the application program in the binary language.
+- The components of the system software are:
+    - Operating System (OS)
+    - Compiler
+    - Assembler
 
-
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134483547-bee84ad2-2b26-4624-8c9b-8811baba5724.JPG" />
+</p>
 
 # References
