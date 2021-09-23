@@ -15,7 +15,7 @@
         - [Sub-Part1: Introduction to all components of open-source digital asic design](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part1-introduction-to-all-components-of-open-source-digital-asic-design)
         - [Sub-Part 2: Simplified RTL2GDS flow](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-simplified-rtl2gds-flow)
         - [Sub-Part 3: Introduction to OpenLANE and Strive chipsets](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-introduction-to-openlane-and-strive-chipsets)
-        - [Sub-Part 4: Introduction to OpenLANE detailed ASIC design flow]()
+        - [Sub-Part 4: Introduction to OpenLANE detailed ASIC design flow](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-introduction-to-openlane-detailed-asic-design-flow)
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
