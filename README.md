@@ -47,3 +47,14 @@
 - Macros are something that require pure digital logic and Foundry IPs require some amount of intelligence.
 
 ### Sub-Part 2: Introduction to RISC-V
+
+- This is the way in which we are going to talk to the computers.
+- This is basically the flow of information from high level language program to the flip-flop level language program (binary language).
+- Any high level language is first compiled in its assembly language program.
+- This assembly language program is then converted into the machine language program.
+- The bits (0s and 1s) of the machine level program get executed in the layout and we get the required output.
+- The interface that is required between RISC-V architecture and the layout is the "Hardware Description Language".
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134481931-023bda19-2700-4a6d-b1bb-74f4234322d7.JPG" />
+</p>
