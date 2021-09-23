@@ -19,6 +19,7 @@
     - [Part 3: Get familiar to open-source EDA tools](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-3-get-familiar-to-open-source-eda-tools)
         - [Sub-Part 1: OpenLANE Directory structure in detail](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-openlane-directory-structure-in-detail)
         - [Sub-Part 2: Design Preparation Step](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-design-preparation-step)
+        - [Sub-Part 3: Review files after design prep and run synthesis]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -247,5 +248,38 @@
 - All the timing files for the process corners are in the lib directory.
 
 ### Sub-Part 2: Design Preparation Step
+
+- Run docker using the command `docker`.
+- This should run the docker application in the terminal.
+- First type the command `pwd` on the terminal and then type the command `ls -ltr`
+- Now, we have to run the flow.tcl file in an interactive manner so type the command `./flow.tcl -interactive`.
+- The terminal should look as follows:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134505217-451655ed-2538-4856-bc63-01ccf0743fac.JPG" />
+</p>
+
+- Type the command `package require openlane 0.9` as:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134505348-8ac9edfb-292f-493b-9b9c-a8130a783ed2.JPG" />
+</p>
+
+- Open another terminal and enter in the "designs/picorv32a" directory using the "cd" command.
+- In this folder, we have:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134505804-fdbd78f8-9393-44e2-a4f9-53ead37b16d5.JPG" />
+</p>
+
+- Return to the terminal that is having the openLANE open in it.
+- Type the command `prep -designs picorv32a`.
+- In the terminal it should look like:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134506076-61bd239d-7442-4d8a-8502-b91cc1677a5e.JPG" />
+</p>
+
+### Sub-Part 3: Review files after design prep and run synthesis
 
 # References
