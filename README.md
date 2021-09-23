@@ -282,4 +282,21 @@
 
 ### Sub-Part 3: Review files after design prep and run synthesis
 
+- Now in the terminal that we had used to access the directory "picorv32a", there should be a runs folder that should have appeared in the folder.
+- Enter into this runs folder using "cd" command.
+- There should be a folder created with the date (in this case 23_09 as this was executed on 23 september 2021) and within this folder should be a tmp folder. Access it using the "cd" command.
+- It should look like:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134506801-69e24dee-b6e9-4916-a8e7-4c674a7010d9.JPG" />
+</p>
+
+- The "merged.lef" file was created by the "prep" command in the previous sub-part.
+- In the openLANE terminal, run the synthesis using the command `run_synthesis`.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134507340-5d07c074-8724-479b-8c70-a1abd84c2c90.JPG" />
+</p>
+
 # References
+- [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
