@@ -41,7 +41,7 @@
         - [Sub-Part 2: Optimize placement using estimated wire-length and capacitance](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-optimize-placement-using-estimated-wire-length-and-capacitance)
         - [Sub-Part 3: Final placement optimization](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-final-placement-optimization)
         - [Sub-Part 4: Need for libraries and characterization](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-need-for-libraries-and-characterization)
-        - [Sub-Part 5: Congestion aware placement using RePlAce]()
+        - [Sub-Part 5: Congestion aware placement using RePlAce](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-5-congestion-aware-placement-using-replace)
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
