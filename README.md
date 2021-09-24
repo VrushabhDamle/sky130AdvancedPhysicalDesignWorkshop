@@ -42,6 +42,7 @@
         - [Sub-Part 3: Final placement optimization](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-final-placement-optimization)
         - [Sub-Part 4: Need for libraries and characterization](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-need-for-libraries-and-characterization)
         - [Sub-Part 5: Congestion aware placement using RePlAce](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-5-congestion-aware-placement-using-replace)
+    - [Part 3: Cell design and characterization flows]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -687,6 +688,36 @@ On the first day of the workshop, we learnt about the method in which an integra
 - **Clock Tree Synthesis**: The clock is being spread across the logic cells at an equal time. Clock buffers will take care that the signal has equal rise and fall time.
 
 ### Sub-Part 5: Congestion aware placement using RePlAce
+
+- Global Placement is coarse placement and no legalization is happening.
+- Standard cells are placed in standard cell rows and they should be placed exactly in the rows.
+- Now, after running the floor plan, execute the command `run_placement`
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134661941-5295c208-7247-43b3-a6c6-60b65e432e11.JPG" />
+</p>
+
+- First the global placement will occur.
+- Main objective of the global placement is to reduce the wire length.
+- In openLANE, the concept of HPWL (Half Parameter Wire Length) is used.
+- Now, to observe the placement, go to the placement directory using the "cd" command.
+- Use the command `ls -ltr` to check what files are present in the directory.
+- Now type the following command in terminal: `magic -T /home/vrushabh/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &`
+- This should open the magic terminal that looks like:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134662363-2a06552c-8a34-493c-a4ce-b53459bc0f20.JPG" />
+</p>
+
+- The zoomed version of this output looks like:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134662543-9b9ee771-850f-4f4d-9d78-08bdcaa24581.JPG" />
+</p>
+
+- We can observe that all the standard cells are placed in standard cell rows.
+
+## Part 3: Cell design and characterization flows
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
