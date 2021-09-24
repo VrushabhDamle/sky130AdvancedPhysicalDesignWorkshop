@@ -30,6 +30,7 @@
         - [Sub-Part 1: Utilization factor and aspect ratio](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-utilization-factor-and-aspect-ratio)
         - [Sub-Part 2: Concept of pre-placed cells](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-concept-of-pre-placed-cells)
         - [Sub-Part 3: De-coupling capacitors](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-de-coupling-capacitors)
+        - [Sub-Part 4: Power planning](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-power-planning)
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
