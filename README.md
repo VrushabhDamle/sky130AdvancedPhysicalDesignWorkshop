@@ -37,7 +37,7 @@
         - [Sub-Part 7: Review floorplan files and steps to view floorplan](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-7-review-floorplan-files-and-steps-to-view-floorplan)
         - [Sub-Part 8: Review floorplan layout in Magic](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-8-review-floorplan-layout-in-magic)
     - [Part 2: Library Binding and Placement](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-2-library-binding-and-placement)
-        - []()
+        - [Sub-Part 1: Netlist binding and initial place design]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -616,6 +616,8 @@ On the first day of the workshop, we learnt about the method in which an integra
 </p>
 
 ## Part 2: Library Binding and Placement
+
+### Sub-Part 1: Netlist binding and initial place design
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
