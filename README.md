@@ -38,6 +38,7 @@
         - [Sub-Part 8: Review floorplan layout in Magic](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-8-review-floorplan-layout-in-magic)
     - [Part 2: Library Binding and Placement](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-2-library-binding-and-placement)
         - [Sub-Part 1: Netlist binding and initial place design](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-netlist-binding-and-initial-place-design)
+        - [Sub-Part 2: Optimize placement using estimated wire-length and capacitance]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -624,6 +625,34 @@ On the first day of the workshop, we learnt about the method in which an integra
 ## Part 2: Library Binding and Placement
 
 ### Sub-Part 1: Netlist binding and initial place design
+
+- Let us consider the following floorplan:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134652585-cd39929d-a821-4e32-adce-bc2377717ceb.JPG" />
+</p>
+
+- The first and foremost step is to bind the netlist with the physical cells.
+- Basically, we convert the symbols of the components in real world shapes (boxes).
+- Library is a place where all the standard cells are present.
+- The library also has the timing information of the cells.
+- A library will have the following information:
+    - Width and Height of each cell.
+    - Delay information of each and every cell.
+    - Required conditions of every cell.
+- Library also provides options/alternatives for a cell.
+- A bigger standard cell has lower resistance and hence, it is faster.
+
+- In placement stage, we do not move the pre-placed cells and the de-coupling capacitors.
+- No cells should overlap with the pre-placed cells.
+
+- For the first two flip-flop lines the placement could be like:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134648514-2b8e104a-5c70-457c-8a84-676600aaa457.png" />
+</p>
+
+### Sub-Part 2: Optimize placement using estimated wire-length and capacitance
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
