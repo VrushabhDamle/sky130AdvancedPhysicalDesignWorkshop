@@ -552,6 +552,31 @@ On the first day of the workshop, we learnt about the method in which an integra
 
 ### Sub-Part 8: Review floorplan layout in Magic
 
+- We will move the floorplan to the centre of the window.
+- To select it, press "S" button on the keyboard.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134639762-1d8135db-831c-4edc-a56b-e518d07b8122.JPG" />
+</p>
+
+- Now to move it to the centre press "V" button on the keyboard.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134639806-e1d141be-4ded-4609-bc40-fc4df816aeb3.JPG" />
+</p>
+
+- To zoom in on a particular area form a box around that area.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134639971-c984b113-ced4-44ce-b88f-cfdb5a00bc78.JPG" />
+</p>
+
+- Now press "Z" button on the keyboard
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134640199-c77b932b-458d-4e13-bf0d-f3bd3642e2ef.JPG" />
+</p>
+
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 - [https://www.youtube.com/watch?v=EczW2IWdnOM](https://www.youtube.com/watch?v=EczW2IWdnOM)
