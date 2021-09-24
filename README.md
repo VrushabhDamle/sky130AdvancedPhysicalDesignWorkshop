@@ -35,6 +35,7 @@
         - [Sub-Part 6: Steps to run floorplan using OpenLANE](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-6-steps-to-run-floorplan-using-openlane)
             - [MCQ questions solutions](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#mcq-questions-solutions-1)
         - [Sub-Part 7: Review floorplan files and steps to view floorplan](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-7-review-floorplan-files-and-steps-to-view-floorplan)
+        - [Sub-Part 8: Review floorplan layout in Magic]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -548,6 +549,8 @@ On the first day of the workshop, we learnt about the method in which an integra
 <p align="center">
     <img src="https://user-images.githubusercontent.com/89193562/134639167-863e469f-7b00-4940-a9f6-4db2760eaa02.JPG" />
 </p>
+
+### Sub-Part 8: Review floorplan layout in Magic
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
