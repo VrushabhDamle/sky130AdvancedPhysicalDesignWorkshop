@@ -373,6 +373,12 @@ On the first day of the workshop, we learnt about the method in which an integra
 
 ### Sub-Part 1: Utilization factor and aspect ratio
 
+- Lets begin with a netlist
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134618895-f46f656d-70c2-4197-b578-57387622eef6.JPG" />
+</p>
+
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 - [https://www.youtube.com/watch?v=EczW2IWdnOM](https://www.youtube.com/watch?v=EczW2IWdnOM)
