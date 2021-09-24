@@ -38,7 +38,7 @@
         - [Sub-Part 8: Review floorplan layout in Magic](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-8-review-floorplan-layout-in-magic)
     - [Part 2: Library Binding and Placement](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-2-library-binding-and-placement)
         - [Sub-Part 1: Netlist binding and initial place design](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-netlist-binding-and-initial-place-design)
-        - [Sub-Part 2: Optimize placement using estimated wire-length and capacitance]()
+        - [Sub-Part 2: Optimize placement using estimated wire-length and capacitance](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-optimize-placement-using-estimated-wire-length-and-capacitance)
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
