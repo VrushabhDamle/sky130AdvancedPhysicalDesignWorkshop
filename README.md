@@ -27,7 +27,7 @@
             - [MCQ questions solutions](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#mcq-questions-solutions)
 - [Day 2: Good floorplan vs bad floorplan and introduction to library cells](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#day-2-good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
     - [Part 1: Chip Floor planning considerations](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-1-chip-floor-planning-considerations)
-        - [Sub-Part 1: Utilization factor and aspect ratio]()
+        - [Sub-Part 1: Utilization factor and aspect ratio](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-utilization-factor-and-aspect-ratio)
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
