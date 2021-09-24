@@ -533,6 +533,14 @@ On the first day of the workshop, we learnt about the method in which an integra
     <img src="https://user-images.githubusercontent.com/89193562/134637595-112ac2f1-deda-4547-a65e-a091446bfa5f.JPG" />
 </p>
 
+- The `DIEAREA ( 0 0 ) ( 660685 671405 ) ;` gives us the co-ordinates of the left bottom corner and right top corner of the chip.
+- The `UNITS DISTANCE MICRONS 1000 ;` says that one micron equals thousand database units.
+
+- Exit it by pressing "Q" button on the keyboard.
+- Open the "merged.lef" file in magic using the command `magic -T /home/vrushabh/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def`
+
+
+
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 - [https://www.youtube.com/watch?v=EczW2IWdnOM](https://www.youtube.com/watch?v=EczW2IWdnOM)
