@@ -29,6 +29,7 @@
     - [Part 1: Chip Floor planning considerations](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-1-chip-floor-planning-considerations)
         - [Sub-Part 1: Utilization factor and aspect ratio](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-utilization-factor-and-aspect-ratio)
         - [Sub-Part 2: Concept of pre-placed cells](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-concept-of-pre-placed-cells)
+        - [Sub-Part 3: De-coupling capacitors]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -411,6 +412,25 @@ On the first day of the workshop, we learnt about the method in which an integra
 - An aspect ratio of "1" signifies that the package is a square package.
 
 ### Sub-Part 2: Concept of pre-placed cells
+
+- If we consider a combinational logic circuit and cut it, then we have two seperate circuits and the connectivity information between them.
+- These two circuits can be placed as two seperate blocks that will be implemented seperately.
+- We take the two blocks independently and extend the Input-Output pins.
+- Now, black box the blocks and detach them.
+- Now, the two blocks will be implemented seperately.
+- The advantage of doing this is that if a block is being used multiple times, then we don't need to implement them repeatedly. We can just black box them and then the circuit can be implemented multiple times. It can basically be reused.
+- Similarly, there are other IPs available:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134621160-e78b524a-f979-4a90-9968-92ca510aff04.JPG" />
+</p>
+
+- This need not be implemented multiple times as it is a part of the top level netlist and the functionality of a particular cell will be implemented only once.
+- The arrangement of these IPs in a chip is referred to as Floorplanning.
+- These IPs/blocks have user defined locations and hence, they are placed in a chip before automated placement-and-routing and thus they are called pre-placed cells.
+- Automated placement-and-routing tools place the remaining logical cells in the design on the chip.
+
+### Sub-Part 3: De-coupling capacitors
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
