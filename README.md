@@ -476,6 +476,26 @@ On the first day of the workshop, we learnt about the method in which an integra
     <img src="https://user-images.githubusercontent.com/89193562/134625512-b69d7d9f-fc1a-4073-a2fa-ae00d462a2c5.png" />
 </p>
 
+### Sub-Part 6: Steps to run floorplan using OpenLANE
+
+- To run the floorplan we need to type the command `run_floorplan` after the synthesis is complete
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134626262-d7db01ad-afb1-4d15-b09c-96eb079c2a64.JPG" />
+</p>
+
+- To check the floorplanning information, go to the "configuration" folder in openlane using the "cd" command and type the command `less README.md` in the terminal.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134626453-8529df90-8d92-45f7-9691-e8271459865c.JPG" />
+</p>
+
+- When we scroll down the floorplan information should look like:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134626516-6ba4e916-b28b-466e-b408-956d73df4d08.JPG" />
+</p>
+
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 - [https://www.youtube.com/watch?v=EczW2IWdnOM](https://www.youtube.com/watch?v=EczW2IWdnOM)
