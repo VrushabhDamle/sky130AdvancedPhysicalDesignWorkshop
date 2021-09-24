@@ -41,6 +41,7 @@
         - [Sub-Part 2: Optimize placement using estimated wire-length and capacitance](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-optimize-placement-using-estimated-wire-length-and-capacitance)
         - [Sub-Part 3: Final placement optimization](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-final-placement-optimization)
         - [Sub-Part 4: Need for libraries and characterization](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-need-for-libraries-and-characterization)
+        - [Sub-Part 5: Congestion aware placement using RePlAce]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -673,6 +674,19 @@ On the first day of the workshop, we learnt about the method in which an integra
 - The blocks are placed so close to each other in high operating frequency circuits.
 
 ### Sub-Part 4: Need for libraries and characterization
+
+- Typical IC design flow:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134658801-07d38185-504b-40e9-bf47-e6b2bd53d47a.JPG" />
+</p>
+
+- **Logic Synthesis**: Arrangement of gates that will represent the original signal functionality described by the RTL.
+- **Floor Planning**: We import the output of the logic synthesis and decide the size of core and  die.
+- **Placement**: We take the particular logic cells present in the netlist and place it on the chip in such a fashion that initial timing is met.
+- **Clock Tree Synthesis**: The clock is being spread across the logic cells at an equal time. Clock buffers will take care that the signal has equal rise and fall time.
+
+### Sub-Part 5: Congestion aware placement using RePlAce
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
