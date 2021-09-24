@@ -781,6 +781,8 @@ On the first day of the workshop, we learnt about the method in which an integra
     <img src="https://user-images.githubusercontent.com/89193562/134675442-12831f00-5608-44ca-8d1a-b06d520b5931.JPG" />
 </p>
 
+- If output fall threshold is chosen then input rise threshold must be chosen and if output rise threshold is chosen then input fall threshold must be chosen.
+
 - The delay should always come positive.
 - Negative delay is not expected and if negative delay is received then it is due to poor choice of threshold points.
 - The formula for Transition time becomes:
