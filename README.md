@@ -748,7 +748,45 @@ On the first day of the workshop, we learnt about the method in which an integra
 
 ## Part 4: General timing characterization parameters
 
+- Timing Threshold Definitions:
+    - slew_low_rise_thr:
+        - Defines the point towards the lower set of the rising curve of the output.
+        - Typically 20% of Vdd.
+    - slew_high_rise_thr:
+        - Defines the point towards the higher set of the rising curve of the output.
+        - Typically 80% of Vdd.
+    - slew_low_fall_thr:
+        - Defines the point towards the lower set of the falling curve of the output.
+        - Typically 20% of Vdd.
+    - slew_high_fall_thr:
+        - Defines the point towards the higher set of the falling curve of the output.
+        - Typically 80% of Vdd.
+    - in_rise_thr:
+        - Defines the point towards the centre of the rising curve of the input.
+        - Typically 50%
+    - in_fall_thr:
+        - Defines the point towards the centre of the falling curve of the input.
+        - Typically 50%
+    - out_rise_thr:
+        - Defines the point towards the centre of the rising curve of the output.
+        - Typically 50%
+    - out_fall_thr:
+        - Defines the point towards the centre of the falling curve of the output.
+        - Typically 50%
 
+- The formula of propogation delay becomes:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134675442-12831f00-5608-44ca-8d1a-b06d520b5931.JPG" />
+</p>
+
+- The delay should always come positive.
+- Negative delay is not expected and if negative delay is received then it is due to poor choice of threshold points.
+- The formula for Transition time becomes:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134675984-cc2e6d5b-26a0-419d-964c-d4fe71a2a3f5.JPG" />
+</p>
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
