@@ -28,6 +28,7 @@
 - [Day 2: Good floorplan vs bad floorplan and introduction to library cells](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#day-2-good-floorplan-vs-bad-floorplan-and-introduction-to-library-cells)
     - [Part 1: Chip Floor planning considerations](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-1-chip-floor-planning-considerations)
         - [Sub-Part 1: Utilization factor and aspect ratio](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-utilization-factor-and-aspect-ratio)
+        - [Sub-Part 2: Concept of pre-placed cells]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -378,6 +379,38 @@ On the first day of the workshop, we learnt about the method in which an integra
 <p align="center">
     <img src="https://user-images.githubusercontent.com/89193562/134618895-f46f656d-70c2-4197-b578-57387622eef6.JPG" />
 </p>
+
+- FF = Flip-Flops/Latches/Registers
+- A1,O1 = Standard cells (AND, OR, INVERTER)
+- Consider a netlist with 2 flip flops and 2 gates, with above shown connections.
+- A "netlist" describes the connectivity of an electronic design.
+- While defining the dimensions of the chip, we are mostly dependant on the dimensions of the logic gates.
+- Now, lets convert the gates symbols into physical dimensions.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134619788-1186773b-a6e3-44e2-ac75-3620ceb19729.JPG" />
+</p>
+
+- Lets say that the standard cells are given a dimension of 1unit x 1unit. So, the area of all the standard cells would be 1 sq. unit.
+- Lets assume same area for flip-flops as well.
+- Area occupied by the netlist would be the area of the standard cells added to the area of the flip-flops.
+- So the area occupied by the netlist would be 4 sq. units.
+- Now, when this netlist is placed on the "core", it will occupy more area because we have to route layers between them.
+- Therefore, utilization factor becomes:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134620292-e3eb3040-e2ea-42f6-821a-fbf561fc1542.JPG" />
+</p>
+
+- The aspect ratio is:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134620459-fb8cebda-ee9e-4dbf-9884-172afe99d0a6.JPG" />
+</p>
+
+- An aspect ratio of "1" signifies that the package is a square package.
+
+### Sub-Part 2: Concept of pre-placed cells
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
