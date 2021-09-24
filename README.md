@@ -43,7 +43,6 @@
         - [Sub-Part 4: Need for libraries and characterization](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-need-for-libraries-and-characterization)
         - [Sub-Part 5: Congestion aware placement using RePlAce](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-5-congestion-aware-placement-using-replace)
     - [Part 3: Cell design and characterization flows](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-3-cell-design-and-characterization-flows)
-        - [Sub-Part 1: Inputs for cell design flow](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-inputs-for-cell-design-flow)
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -720,7 +719,31 @@ On the first day of the workshop, we learnt about the method in which an integra
 
 ## Part 3: Cell design and characterization flows
 
-### Sub-Part 1: Inputs for cell design flow
+- Standard cells are placed in a library.
+- A library is a place where we keep all of out standard cells, macros, decap cells, IPs, etc.
+- Different sizes of the same component have different drive strength and threshold voltage.
+- The cell design flow is as follows:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134671659-36a3be10-cc4e-4fb4-86e5-74b64b6c2393.JPG" />
+</p>
+
+- Euler's path is the path that is traced only once.
+- Characterization flow includes:
+    - Read the models
+    - Read the extracted SPICE netlist
+    - Recognize the behaviour of the circuit
+    - Read the subcircuits
+    - Attach the necessary power source
+    - Apply the stimulus
+    - Provide necessary output capacitance
+    - Provide necessary simulation command
+- Feed in all the above steps as a configuration file to the characterization software called "GUNA".
+- Software will generate timing, noise, power .libs, function
+- Characterization of .libs:
+    - Timing characterization
+    - Noise characterization
+    - Power characterization
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
