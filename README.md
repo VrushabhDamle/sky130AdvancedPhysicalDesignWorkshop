@@ -654,6 +654,15 @@ On the first day of the workshop, we learnt about the method in which an integra
 
 ### Sub-Part 2: Optimize placement using estimated wire-length and capacitance
 
+- After placement of the third and fourth combinational logic the cirucit shall look like:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134653731-31e8ea37-1475-4fc3-8251-7b1e4b97812a.png" />
+</p>
+
+- 
+
+
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 - [https://www.youtube.com/watch?v=EczW2IWdnOM](https://www.youtube.com/watch?v=EczW2IWdnOM)
