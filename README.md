@@ -429,8 +429,19 @@ On the first day of the workshop, we learnt about the method in which an integra
 - The arrangement of these IPs in a chip is referred to as Floorplanning.
 - These IPs/blocks have user defined locations and hence, they are placed in a chip before automated placement-and-routing and thus they are called pre-placed cells.
 - Automated placement-and-routing tools place the remaining logical cells in the design on the chip.
+- Pre-placed cells have to be placed in such a fashion that once they are placed, their locations cannot be changed.
 
 ### Sub-Part 3: De-coupling capacitors
+
+- Consider the amount of switching current required for a complex circuit.
+- Consider capacitance to be zero for the discussion. Rdd, Rss, Ldd, and Lss are well defined values.
+- During switching operation, the circuit demands switching current i.e. peak current (Ipeak).
+- Now, due to the presence of Rdd and Ldd, there will be a voltage drop across them and the voltage drop across them and the voltage at node 'A' would be Vdd' instead of Vdd.
+- If Vdd' goes below the noise margin then due to Rdd and Ldd, the logic '1' at the output of the circuit won't be detected as logic '1' at the input of the the circuit following this circuit.
+- The solution to this problem is to add a de-coupling capacitor.
+- Addition of decoupling capacitors is done in parallel with the circuit.
+- Everytime the circuit switches, it draws current from Cd (decoupling capacitor), whereas the RL network is used to replenish the charge into Cd.
+- 
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
