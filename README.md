@@ -36,6 +36,7 @@
             - [MCQ questions solutions](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#mcq-questions-solutions-1)
         - [Sub-Part 7: Review floorplan files and steps to view floorplan](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-7-review-floorplan-files-and-steps-to-view-floorplan)
         - [Sub-Part 8: Review floorplan layout in Magic](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-8-review-floorplan-layout-in-magic)
+    - [Part 2: Library Binding and Placement]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -576,6 +577,44 @@ On the first day of the workshop, we learnt about the method in which an integra
 <p align="center">
     <img src="https://user-images.githubusercontent.com/89193562/134640199-c77b932b-458d-4e13-bf0d-f3bd3642e2ef.JPG" />
 </p>
+
+- We can see that the input-output pins are equidistant from each other.
+- To see what layer the input-output pins of the horizontal part are on, select one pin by moving the cursor over it and pressing the "S" button on keyboard.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134640617-ee8b99f2-8bdf-4829-9413-90c62b2ddb47.JPG" />
+</p>
+
+- Now, in the command window, type `what`:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134640717-e37682bd-2a19-48cd-8b7b-ccd1ddab0cdd.JPG" />
+</p>
+
+- We can see that the input-output pins are on metal3 layer which is what we had set.
+- To see what layer the input-output pins of the vertical part are on, select one pin by moving the cursor over it and pressing the "S" button on keyboard.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134641044-22a9b3d8-e3af-4de7-bb35-8b49b0485f54.JPG" />
+</p>
+
+- Now, in the command window, type `what`:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134641082-1addea87-e7f5-4d56-ba0b-2b910e032315.JPG" />
+</p>
+
+- We can see that the input-output pins are on metal2 window as we had set.
+- Tap cells are basically meant to avoid the latch-up conditions which occur in the CMOS devices. 
+- So, N-well is connected to Vdd and substrate is connected to the ground.
+- The tap cells are diagonally equidistant.
+- The standard cells are present at the left bottom corner of the design.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134641803-1c089671-78aa-4b1a-8f4b-244e89ec9f1c.JPG" />
+</p>
+
+## Part 2: Library Binding and Placement
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
