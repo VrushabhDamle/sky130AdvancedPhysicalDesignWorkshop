@@ -31,6 +31,7 @@
         - [Sub-Part 2: Concept of pre-placed cells](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-concept-of-pre-placed-cells)
         - [Sub-Part 3: De-coupling capacitors](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-de-coupling-capacitors)
         - [Sub-Part 4: Power planning](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-power-planning)
+        - [Sub-Part 5: Pin placement and logical cell placement blockage]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -454,6 +455,16 @@ On the first day of the workshop, we learnt about the method in which an integra
 <p align="center">
     <img src="https://user-images.githubusercontent.com/89193562/134622669-c0347ce5-6081-4e07-8019-8e6b2b9d08c8.JPG" />
 </p>
+
+- This means, all capacitors which were charged to 'V' volts have to discharge to '0' volts through a single "ground" tap point. This will cause a bump in the "ground" tap point and this is called as "Ground Bounce".
+- Also, all capacitors which were not charged have to charge to 'V' volts through a single "Vdd" tap point. This will cause a drop in the "Vdd" tap point and this is called as "Voltage Droop".
+- To counter the issues faced, we use a grid pattern and supply power from multiple places. We have Vdd and Vss lines forming a mesh.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134623955-2abf6b0a-6d01-4b28-b015-b4f962ae54c7.JPG" />
+</p>
+
+### Sub-Part 5: Pin placement and logical cell placement blockage
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
