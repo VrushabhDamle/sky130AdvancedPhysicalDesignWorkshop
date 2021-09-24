@@ -44,6 +44,7 @@
         - [Sub-Part 5: Congestion aware placement using RePlAce](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-5-congestion-aware-placement-using-replace)
     - [Part 3: Cell design and characterization flows](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-3-cell-design-and-characterization-flows)
     - [Part 4: General timing characterization parameters](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-4-general-timing-characterization-parameters)
+- [Day 3: Design library cell using Magic Layout and ngspice characterization]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -787,6 +788,8 @@ On the first day of the workshop, we learnt about the method in which an integra
 <p align="center">
     <img src="https://user-images.githubusercontent.com/89193562/134675984-cc2e6d5b-26a0-419d-964c-d4fe71a2a3f5.JPG" />
 </p>
+
+# Day 3: Design library cell using Magic Layout and ngspice characterization
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
