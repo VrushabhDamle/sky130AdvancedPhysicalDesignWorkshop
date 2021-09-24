@@ -441,7 +441,18 @@ On the first day of the workshop, we learnt about the method in which an integra
 - The solution to this problem is to add a de-coupling capacitor.
 - Addition of decoupling capacitors is done in parallel with the circuit.
 - Everytime the circuit switches, it draws current from Cd (decoupling capacitor), whereas the RL network is used to replenish the charge into Cd.
-- 
+- De-coupling capacitor decouples the circuit from the main power supply.
+
+### Sub-Part 4: Power planning
+
+- We have taken care of local communication by using the de-coupling capacitor.
+- Now, if the decoupled circuit is black boxed and repeated multiple times.
+- The connection between two blocks is not decoupled and the power supply is sitting at a far distance from this line. So, there is always a possibility of voltage drop.
+- If we consider a 16 bit bus and pass it through an inverter.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134622669-c0347ce5-6081-4e07-8019-8e6b2b9d08c8.JPG" />
+</p>
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
