@@ -39,6 +39,7 @@
     - [Part 2: Library Binding and Placement](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-2-library-binding-and-placement)
         - [Sub-Part 1: Netlist binding and initial place design](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-netlist-binding-and-initial-place-design)
         - [Sub-Part 2: Optimize placement using estimated wire-length and capacitance](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-optimize-placement-using-estimated-wire-length-and-capacitance)
+        - [Sub-Part 3: Final placement optimization]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -660,8 +661,12 @@ On the first day of the workshop, we learnt about the method in which an integra
     <img src="https://user-images.githubusercontent.com/89193562/134653731-31e8ea37-1475-4fc3-8251-7b1e4b97812a.png" />
 </p>
 
-- 
+- We estimate the wire length and capacitance and based on that, insert repeaters.
+- Distance of input pins from "brown" flip-flop is huge and the wire inserted between them will have a huge capacitance and resistance.
+- We solve this problem of signal integrity due to huge wire length by adding repeaters but it causes a loss of area available in the core.
+- Slew is a quantity dependant on the value of the capacitance of the wire.
 
+### Sub-Part 3: Final placement optimization
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
