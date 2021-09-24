@@ -506,6 +506,33 @@ On the first day of the workshop, we learnt about the method in which an integra
 
 ### Sub-Part 7: Review floorplan files and steps to view floorplan
 
+- To review the file created from running the floorplan command, go to the runs directory using the "cd" command and go further into the floorplan directory.
+- Use `ls -ltr` command to check available files.
+- Open the file "4-ioPlacer.log" using the "less" command
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134636784-aee5a372-e900-4f8d-96b3-9701cb8e85d5.JPG" />
+</p>
+
+- When opened the file looks as follow:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134636977-8db00910-cd3d-4115-96f5-309a66f41087.JPG" />
+</p>
+
+- Now go to the "results/floorplan" directory and use the command `ls -ltr` to check the contents of this directory.
+- Open the file "picorv32a.floorplan.def" using the "less" command.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134637538-55fba3c3-a2e8-4342-9e95-11eadec53235.JPG" />
+</p>
+
+- When opened the file looks as follow:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134637595-112ac2f1-deda-4547-a65e-a091446bfa5f.JPG" />
+</p>
+
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 - [https://www.youtube.com/watch?v=EczW2IWdnOM](https://www.youtube.com/watch?v=EczW2IWdnOM)
