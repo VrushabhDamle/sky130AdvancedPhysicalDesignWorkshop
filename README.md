@@ -40,7 +40,7 @@
         - [Sub-Part 1: Netlist binding and initial place design](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-netlist-binding-and-initial-place-design)
         - [Sub-Part 2: Optimize placement using estimated wire-length and capacitance](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-optimize-placement-using-estimated-wire-length-and-capacitance)
         - [Sub-Part 3: Final placement optimization](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-final-placement-optimization)
-        - [Sub-Part 4: Need for libraries and characterization]()
+        - [Sub-Part 4: Need for libraries and characterization](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-need-for-libraries-and-characterization)
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
