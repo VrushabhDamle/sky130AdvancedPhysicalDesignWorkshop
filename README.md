@@ -482,6 +482,12 @@ On the first day of the workshop, we learnt about the method in which an integra
     <img src="https://user-images.githubusercontent.com/89193562/134625512-b69d7d9f-fc1a-4073-a2fa-ae00d462a2c5.png" />
 </p>
 
+- Now the overall package should look like:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134646117-84ae7ed0-89f9-495b-952b-d244ecc3f93d.png" />
+</p>
+
 ### Sub-Part 6: Steps to run floorplan using OpenLANE
 
 - To run the floorplan we need to type the command `run_floorplan` after the synthesis is complete
