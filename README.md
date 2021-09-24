@@ -537,9 +537,17 @@ On the first day of the workshop, we learnt about the method in which an integra
 - The `UNITS DISTANCE MICRONS 1000 ;` says that one micron equals thousand database units.
 
 - Exit it by pressing "Q" button on the keyboard.
-- Open the "merged.lef" file in magic using the command `magic -T /home/vrushabh/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def`
+- Open the "merged.lef" file in magic using the command `magic -T /home/vrushabh/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &`
 
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134638980-cae7c90e-5fc9-4898-a98b-7cb46acc5d6b.JPG" />
+</p>
 
+- When the magic terminal opens it looks as follows:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134639167-863e469f-7b00-4940-a9f6-4db2760eaa02.JPG" />
+</p>
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
