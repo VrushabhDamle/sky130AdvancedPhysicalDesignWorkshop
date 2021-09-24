@@ -466,6 +466,16 @@ On the first day of the workshop, we learnt about the method in which an integra
 
 ### Sub-Part 5: Pin placement and logical cell placement blockage
 
+- The connectivity information between the gates is coded using VHDL/Verilog Language and is called as "netlist".
+- The ordering of input and output ports is random and the reason is the cell placement.
+- Clock ports are bigger than data ports because the clock is the port which is driving all of the cells continuously.
+- We need least resistance for clock ports as bigger size means lower resistance.
+- We also add a logical cell placement covering the port area so that no cells are placed in this region.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134625512-b69d7d9f-fc1a-4073-a2fa-ae00d462a2c5.png" />
+</p>
+
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 - [https://www.youtube.com/watch?v=EczW2IWdnOM](https://www.youtube.com/watch?v=EczW2IWdnOM)
