@@ -50,6 +50,7 @@
         - [Sub-Part 2: SPICE deck creation for CMOS inverter](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-spice-deck-creation-for-cmos-inverter)
         - [Sub-Part 3: SPICE simulation lab for CMOS inverter](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-spice-simulation-lab-for-cmos-inverter)
         - [Sub-Part 4: Switching Threshold Vm](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-switching-threshold-vm)
+        - [Sub-Part 5: Static and dynamic simulation of CMOS inverter]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -895,6 +896,8 @@ Vin in 0 2.5
 - Graphical method to find Vm is to draw a line across the graph of output voltage to input voltage of a CMOS inverter starting at the origin and ending at the opposite diagonal of the plot (basically a line with a 45 degree inclination with the x-axis). Now, the x-coordinate of the point of intersection of this line and the curve is the switching threshold.
 - At Vm, both PMOS and NMOS are turned 'ON' because Vgs has almost crossed the threshold region for both of them.
 - IdsP = - IdsN which means that IdsP + IdsN = 0
+
+### Sub-Part 5: Static and dynamic simulation of CMOS inverter
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
