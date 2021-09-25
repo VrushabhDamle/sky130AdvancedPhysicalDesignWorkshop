@@ -936,6 +936,54 @@ Vin in 0 2.5
 
 ## Part 2: Inception of Layout and CMOS fabrication process
 
+- There is a 16 mask CMOS process which includes:
+    - Selecting a substrate
+    - Creating active region for transistors
+    - N-well and P-well formation
+    - Formation of Gate
+    - Lightly doped drain (LDD) formation
+    - Source and drain formation
+    - Steps to form contacts and local interconnects
+    - Higher level metal formation
+- In a magic layout, to check if there are connections between two parts of the circuit, press "S" button on keyboard 3 times.
+- LEF is library exchanged format.
+- Functionality of LEF is protecting the IP.
+- In the magic file if there is any DRC error, then go to the "DRC Find next error" option in the "DRC" menu.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134776530-f70f2316-9b58-4886-bc0b-3443e338e5de.JPG" />
+</p>
+
+- This option zooms in on the part where the error has occured:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134776556-17cc4475-de21-4d5c-8e46-6121328df590.JPG" />
+</p>
+
+- The command window also shows the error:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134776565-ccc2403f-0dbb-4794-a237-fd86a2f23c0a.JPG" />
+</p>
+
+- To extract the layout into a spice deck use the command "extract all", then use the command "ext2spice cthresh 0 rthresh 0" and finally "ext2spice"
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134776636-9da3a53b-6fde-4a56-a142-bbdf968f1185.JPG" />
+</p>
+
+- The command to view the spice deck created is:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134776950-bbc93e1f-12f7-4d43-94a0-b04bf4a060e2.JPG" />
+</p>
+
+- The spice deck for the inverter looks like:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134776983-bcbf6e48-302a-4454-b50b-39a704207ed5.JPG" />
+</p>
+
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 - [https://www.youtube.com/watch?v=EczW2IWdnOM](https://www.youtube.com/watch?v=EczW2IWdnOM)
