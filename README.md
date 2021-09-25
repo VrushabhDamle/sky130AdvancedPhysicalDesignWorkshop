@@ -49,7 +49,7 @@
         - [Sub-Part 1: IO placer revision](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-io-placer-revision)
         - [Sub-Part 2: SPICE deck creation for CMOS inverter](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-2-spice-deck-creation-for-cmos-inverter)
         - [Sub-Part 3: SPICE simulation lab for CMOS inverter](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-spice-simulation-lab-for-cmos-inverter)
-        - [Sub-Part 4: Switching Threshold Vm]()
+        - [Sub-Part 4: Switching Threshold Vm](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-switching-threshold-vm)
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
