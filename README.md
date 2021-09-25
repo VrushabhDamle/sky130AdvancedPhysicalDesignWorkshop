@@ -903,3 +903,4 @@ Vin in 0 2.5
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
 - [https://www.youtube.com/watch?v=EczW2IWdnOM](https://www.youtube.com/watch?v=EczW2IWdnOM)
 - [https://www.youtube.com/watch?v=Vhyv0eq_mLU](https://www.youtube.com/watch?v=Vhyv0eq_mLU)
+- [https://github.com/nickson-jose/vsdstdcelldesign](https://github.com/nickson-jose/vsdstdcelldesign)
