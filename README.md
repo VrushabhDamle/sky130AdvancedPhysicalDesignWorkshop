@@ -845,7 +845,7 @@ On the second day of the workshop, we started the discussion with the chip floor
 - We create the following netlist:
 
 <p align="center">
-    <img src="" />
+    <img src="https://user-images.githubusercontent.com/89193562/134760764-c60be24c-69b2-418e-82c7-af08be304997.JPG" />
 </p>
 
 # References
