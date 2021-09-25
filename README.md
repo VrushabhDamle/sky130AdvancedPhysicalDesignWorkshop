@@ -890,7 +890,11 @@ Vin in 0 2.5
 
 ### Sub-Part 4: Switching Threshold Vm
 
-- 
+- Switching threshold is the point at which the device switches.
+- It is the point where Vin = Vout
+- Graphical method to find Vm is to draw a line across the graph of output voltage to input voltage of a CMOS inverter starting at the origin and ending at the opposite diagonal of the plot (basically a line with a 45 degree inclination with the x-axis). Now, the x-coordinate of the point of intersection of this line and the curve is the switching threshold.
+- At Vm, both PMOS and NMOS are turned 'ON' because Vgs has almost crossed the threshold region for both of them.
+- IdsP = - IdsN which means that IdsP + IdsN = 0
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
