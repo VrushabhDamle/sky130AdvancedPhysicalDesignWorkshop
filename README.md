@@ -51,7 +51,7 @@
         - [Sub-Part 3: SPICE simulation lab for CMOS inverter](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-spice-simulation-lab-for-cmos-inverter)
         - [Sub-Part 4: Switching Threshold Vm](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-switching-threshold-vm)
         - [Sub-Part 5: Lab steps to git clone vsdstdcelldesign](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-5-lab-steps-to-git-clone-vsdstdcelldesign)
-    - [Part 2: Inception of Layout and CMOS fabrication process]()
+    - [Part 2: Inception of Layout and CMOS fabrication process](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-2-inception-of-layout-and-cmos-fabrication-process)
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
