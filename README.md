@@ -52,6 +52,7 @@
         - [Sub-Part 4: Switching Threshold Vm](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-switching-threshold-vm)
         - [Sub-Part 5: Lab steps to git clone vsdstdcelldesign](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-5-lab-steps-to-git-clone-vsdstdcelldesign)
     - [Part 2: Inception of Layout and CMOS fabrication process](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-2-inception-of-layout-and-cmos-fabrication-process)
+    - [art 3: Sky130 Tech File Labs]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -983,6 +984,8 @@ Vin in 0 2.5
 <p align="center">
     <img src="https://user-images.githubusercontent.com/89193562/134776983-bcbf6e48-302a-4454-b50b-39a704207ed5.JPG" />
 </p>
+
+## Part 3: Sky130 Tech File Labs
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
