@@ -387,6 +387,8 @@ On the first day of the workshop, we learnt about the method in which an integra
 
 # Day 2: Good floorplan vs bad floorplan and introduction to library cells
 
+On the second day of the workshop, we started the discussion with the chip floor planning considerations which consisted of the utilization factor, aspect ratio, concept of pre-placed cells, de-coupling capacitors, power planning and pin placement. We also discussed about netlist binding and optimization of placement of the components. Finally, we also had a look on the cell design and characterization flows.
+
 ## Part 1: Chip Floor planning considerations
 
 ### Sub-Part 1: Utilization factor and aspect ratio
@@ -795,6 +797,56 @@ On the first day of the workshop, we learnt about the method in which an integra
 # Day 3: Design library cell using Magic Layout and ngspice characterization
 
 ## Part 1: Labs for CMOS inverter ngspice simulations
+
+- First, we will look at the input-output placer.
+- In OpenLANE follow the steps upto floorplan as discussed earlier.
+- If we run the magic file command, then we had got the output file with equidistand input-output pins as follow:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134760073-dbdbc834-9f10-4922-8590-c547c9c234ea.JPG"/>
+</p>
+
+- Now, in a seperate terminal, go to the configuration folder and open the "floorplan.tcl " file using the less command
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134760017-2032cecc-c937-4f4e-8a8b-5de5d3d0ebd5.JPG" />
+</p>
+
+- This should open a window as follows:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134760027-0abe7cd0-176e-4b6b-b234-d55f3ad90250.JPG" />
+</p>
+
+- Copy the command "set ::env(FP_IO_MODE)" in to the OpenLANE terminal and add the value "2" to it as follows:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134760108-19995877-3bd8-42f6-9630-aa45c16b07e2.JPG" />
+</p>
+
+- If we view the magic terminal now, it gives the following output:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134760118-3ce768d7-eb02-4cfd-b69a-18ab94d39bf6.JPG" />
+</p>
+
+- When we zoom in on the pins then we can observe:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134760134-d402f56c-a027-4189-8dfc-f7b6504df7ee.JPG" />
+</p>
+
+- To create a SPICE deck for a CMOS inverter we must complete the following steps:
+    - Define component connectivity
+    - Declare component values
+    - Identify nodes
+    - Name nodes
+- Nodes are those two points in between which there is a component.
+- We create the following netlist:
+
+<p align="center">
+    <img src="" />
+</p>
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
