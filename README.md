@@ -46,7 +46,7 @@
     - [Part 4: General timing characterization parameters](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-4-general-timing-characterization-parameters)
 - [Day 3: Design library cell using Magic Layout and ngspice characterization](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#day-3-design-library-cell-using-magic-layout-and-ngspice-characterization)
     - [Part 1: Labs for CMOS inverter ngspice simulations](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-1-labs-for-cmos-inverter-ngspice-simulations)
-        - [Sub-Part 1: IO placer revision]()
+        - [Sub-Part 1: IO placer revision](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-1-io-placer-revision)
         - [Sub-Part 2: SPICE deck creation for CMOS inverter]()
         - [Sub-Part 3: SPICE simulation lab for CMOS inverter]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
