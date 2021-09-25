@@ -51,6 +51,7 @@
         - [Sub-Part 3: SPICE simulation lab for CMOS inverter](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-3-spice-simulation-lab-for-cmos-inverter)
         - [Sub-Part 4: Switching Threshold Vm](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-4-switching-threshold-vm)
         - [Sub-Part 5: Lab steps to git clone vsdstdcelldesign](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#sub-part-5-lab-steps-to-git-clone-vsdstdcelldesign)
+    - [Part 2: Inception of Layout and CMOS fabrication process]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -898,6 +899,42 @@ Vin in 0 2.5
 - IdsP = - IdsN which means that IdsP + IdsN = 0
 
 ### Sub-Part 5: Lab steps to git clone vsdstdcelldesign
+
+- Go to the openlane directory using the "cd" commands.
+- Now clone the vsdstdcelldesign directory from git using the command `git clone https://github.com/nickson-jose/vsdstdcelldesign.git`.
+- Enter the folder "vsdstdcelldesign".
+- Type the command "pws" to get the path of this directory.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134766736-9c63ad7c-a058-4ccf-b25e-495dffef43a9.JPG" />
+</p>
+
+- Open a new terminal and go to the magic folder in pdks directory using the "cd" command.
+- Now copy the "sky130A.tech" file to the the address of "vsdstdcelldesign" directory using the "cp" command.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134766763-2436658c-a661-4e18-97e7-299971a1918d.JPG" />
+</p>
+
+- In the directory, "vsdstdcelldesign" check if the file is copied using the "ls -ltr" command.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134766796-e9301b04-a136-487b-ae86-2aeb5d8da9fa.JPG" />
+</p>
+
+- Now open the file "sky130_inv.mag" using the magic commands.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134766851-67dae12e-8156-4826-9a64-70029d984fd9.JPG" />
+</p>
+
+- The magic window looks like:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/89193562/134766884-864a7dd1-46b7-45d3-980b-851dc2c968ec.JPG" />
+</p>
+
+## Part 2: Inception of Layout and CMOS fabrication process
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
