@@ -46,6 +46,9 @@
     - [Part 4: General timing characterization parameters](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-4-general-timing-characterization-parameters)
 - [Day 3: Design library cell using Magic Layout and ngspice characterization](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#day-3-design-library-cell-using-magic-layout-and-ngspice-characterization)
     - [Part 1: Labs for CMOS inverter ngspice simulations](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#part-1-labs-for-cmos-inverter-ngspice-simulations)
+        - [Sub-Part 1: IO placer revision]()
+        - [Sub-Part 2: SPICE deck creation for CMOS inverter]()
+        - [Sub-Part 3: SPICE simulation lab for CMOS inverter]()
 - [References](https://github.com/VrushabhDamle/sky130AdvancedPhysicalDesignWorkshop/blob/main/README.md#references)
 
 # Day 1: Inception of open-source EDA, OpenLANE and Sky130 PDK
@@ -798,6 +801,8 @@ On the second day of the workshop, we started the discussion with the chip floor
 
 ## Part 1: Labs for CMOS inverter ngspice simulations
 
+### Sub-Part 1: IO placer revision
+
 - First, we will look at the input-output placer.
 - In OpenLANE follow the steps upto floorplan as discussed earlier.
 - If we run the magic file command, then we had got the output file with equidistand input-output pins as follow:
@@ -836,6 +841,8 @@ On the second day of the workshop, we started the discussion with the chip floor
     <img src="https://user-images.githubusercontent.com/89193562/134760134-d402f56c-a027-4189-8dfc-f7b6504df7ee.JPG" />
 </p>
 
+### Sub-Part 2: SPICE deck creation for CMOS inverter
+
 - To create a SPICE deck for a CMOS inverter we must complete the following steps:
     - Define component connectivity
     - Declare component values
@@ -847,6 +854,40 @@ On the second day of the workshop, we started the discussion with the chip floor
 <p align="center">
     <img src="https://user-images.githubusercontent.com/89193562/134760764-c60be24c-69b2-418e-82c7-af08be304997.JPG" />
 </p>
+
+### Sub-Part 3: SPICE simulation lab for CMOS inverter
+
+- The netlist has the following code:
+
+```
+***MODEL Descriptions***
+***NETLIST Description***
+M1 out in vdd vdd pmos w=0.375u l=0.25u
+M2 out in 0 0 nmos w=0.375u l=0.25u
+
+cload out 0 10f
+
+Vdd vdd 0 2.5
+Vin in 0 2.5
+***SIMULATION Commands***
+.op
+.dc Vin 0 2.5 2.5
+***.include tsmc_025um_model.mod***
+.LIB "tsmc_025um_model.mod" CMOS_MODELS
+.end
+```
+
+- Steps to simulate the file in ngspice:
+    - Go to the directory/folder containing the netlist using the "cd" command.
+    - Then source the circuit file using the "source" command.
+    - execute the circuit using the command "run".
+    - Using "setplot" command check which plot is currently available.
+    - Choose the plot by typing its name. In this case we choose "dc1".
+    - Using the command "display" we can check the node voltages available.
+    - Now type the command "plot out vs in" to get the dc transfer characteristics.
+- Increasing the PMOS width shift the dc transfer characteristics plot to the right.
+
+- 
 
 # References
 - [https://github.com/The-OpenROAD-Project/OpenLane](https://github.com/The-OpenROAD-Project/OpenLane)
